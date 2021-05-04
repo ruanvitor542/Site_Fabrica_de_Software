@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./imagens/fds-removebg-cropped.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro - Fds</title>
+</head>
+<body>
+
+    <div class="caixa">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand ml-4" href="index.html"><img src="./imagens/fds-nav (1).png" height="80px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end mr-4" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="consulta.html">Consulta</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="conteudo d-flex align-items-center justify-content-center justify-content-sm-center">
+            <form class="cadastro navbar-form">
+                <div class="form-row mb-md-4 mb-sm-0">
+                    <div class="form-group col-md-6 col-sm-6">
+                        <label>Nome</label>
+                        <input type="text" class="form-control" placeholder="Nome">
+                    </div>
+                    <div class="form-group col-md-6 col-sm-6">
+                        <label>Sobrenome</label>
+                        <input type="text" class="form-control" placeholder="Sobrenome">
+                    </div>
+                </div>
+
+                <div class="form-row mb-md-4 mb-sm-0">
+                    <div class="form-group col-md-6 col-sm-12">
+                        <label>Endereço</label>
+                        <input type="text" class="form-control" placeholder="Ex: Rua dos pcs">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-6">
+                        <label>Complemento</label>
+                        <input type="text" class="form-control" placeholder="Ex: ao lado da Unipe">
+                    </div>
+                    <div class="form-group col-md-2 col-sm-6">
+                        <label>Número</label>
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-row mb-sm-0">
+                    <div class="form-group col-md-4 col-sm-6">
+                        <label>Bairro</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-6">
+                        <label>Cidade</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-2 col-sm-6">
+                        <label>Estado</label>
+                        <select id="inputEstado" class="form-control">
+                            <option selected>Escolher...</option>
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP</option>
+                            <option>AM</option>
+                            <option>BA</option>
+                            <option>CE</option>
+                            <option>DF</option>
+                            <option>ES</option>
+                            <option>GO</option>
+                            <option>MA</option>
+                            <option>MT</option>
+                            <option>MS</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PB</option>
+                            <option>PR</option>
+                            <option>PE</option>
+                            <option>PI</option>
+                            <option>RJ</option>
+                            <option>RN</option>
+                            <option>RS</option>
+                            <option>RO</option>
+                            <option>RR</option>
+                            <option>SC</option>
+                            <option>SP</option>
+                            <option>SE</option>
+                            <option>TO</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2 col-sm-6">
+                        <label>CEP</label>
+                        <input type="number" class="form-control" id="inputCEP">
+                    </div>
+                </div>
+
+                <div class="text-right">
+                    <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+                </div>
+                
+              </form>
+        </div>
+
+        <footer>
+            Todos os direitos reservados &copy; 2021
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
